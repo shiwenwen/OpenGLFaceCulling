@@ -99,4 +99,4 @@ glFrontFace(GL_CCW);
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/674886/1594278971765-7f056742-ea3f-40c7-a17f-cd8324644af3.png#align=left&display=inline&height=224&margin=%5Bobject%20Object%5D&name=image.png&originHeight=447&originWidth=384&size=24751&status=done&style=none&width=192)
 
 又产生了新的问题，所以背面剔除也是存在缺陷的。
-这是因为如果前后两个点都是正面或者背面，这时候OpenGL是无法区分哪个面在前，哪个面在后的，就出现了上图这样的问。我们将在下一篇 **深度测试** 中讨论如何解决这样的问题。
+这是因为如果前后两个点都是正面或者背面，这时候OpenGL是无法区分哪个面在前，哪个面在后的，就出现了上图这样的问。我们将在下一篇 [OpenGL深度测试](https://www.yuque.com/shiwenwen-qfo44/nrzz49/fcubus) 中讨论如何解决这样的问题。
